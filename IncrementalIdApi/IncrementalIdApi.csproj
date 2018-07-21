@@ -5,6 +5,9 @@
     <RootNamespace>IncrementalIdApi</RootNamespace>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Remove="Sequence.cs" />
+  </ItemGroup>
+  <ItemGroup>
     <None Remove="CosmosStoredProcedure.js" />
   </ItemGroup>
   <ItemGroup>
